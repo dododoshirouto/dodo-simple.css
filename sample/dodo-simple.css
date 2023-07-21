@@ -26,90 +26,90 @@
 }
 
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-THIN_0.TTF');
-	font-weight: 100;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-THIN_0.TTF');
+    font-weight: 100;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-THINITALIC_0.TTF');
-	font-style: italic;
-	font-weight: 100;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-THINITALIC_0.TTF');
+    font-style: italic;
+    font-weight: 100;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-EXTRALIGHT_0.TTF');
-	font-weight: 200;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-EXTRALIGHT_0.TTF');
+    font-weight: 200;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-EXTRALIGHTITALIC_0.TTF');
-	font-style: italic;
-	font-weight: 200;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-EXTRALIGHTITALIC_0.TTF');
+    font-style: italic;
+    font-weight: 200;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-LIGHT_0.TTF');
-	font-weight: 300;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-LIGHT_0.TTF');
+    font-weight: 300;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-LIGHTITALIC_0.TTF');
-	font-style: italic;
-	font-weight: 300;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-LIGHTITALIC_0.TTF');
+    font-style: italic;
+    font-weight: 300;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-REGULAR_0.TTF');
-	font-weight: 400;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-REGULAR_0.TTF');
+    font-weight: 400;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-ITALIC_0.TTF');
-	font-style: italic;
-	font-weight: 400;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-ITALIC_0.TTF');
+    font-style: italic;
+    font-weight: 400;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-TEXT_0.TTF');
-	font-weight: 450;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-TEXT_0.TTF');
+    font-weight: 450;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-TEXTITALIC_0.TTF');
-	font-style: italic;
-	font-weight: 450;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-TEXTITALIC_0.TTF');
+    font-style: italic;
+    font-weight: 450;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-MEDIUM_0.TTF');
-	font-weight: 500;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-MEDIUM_0.TTF');
+    font-weight: 500;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-MEDIUMITALIC_0.TTF');
-	font-style: italic;
-	font-weight: 500;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-MEDIUMITALIC_0.TTF');
+    font-style: italic;
+    font-weight: 500;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-SEMIBOLD_0.TTF');
-	font-weight: 600;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-SEMIBOLD_0.TTF');
+    font-weight: 600;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-SEMIBOLDITALIC_0.TTF');
-	font-style: italic;
-	font-weight: 600;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-SEMIBOLDITALIC_0.TTF');
+    font-style: italic;
+    font-weight: 600;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-BOLD_0.TTF');
-	font-weight: 700;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-BOLD_0.TTF');
+    font-weight: 700;
 }
 @font-face {
-	font-family: 'PlemolJP25 HS';
-	src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-BOLDITALIC_0.TTF');
-	font-style: italic;
-	font-weight: 700;
+    font-family: 'PlemolJP35 HS';
+    src: url('https://github.com/dododoshirouto/dodo-simple.css/raw/master/Fonts/PLEMOLJP35HS-BOLDITALIC_0.TTF');
+    font-style: italic;
+    font-weight: 700;
 }
