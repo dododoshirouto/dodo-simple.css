@@ -27,6 +27,8 @@ $RECYCLE.BIN/
 *.url
 
 
+references/*
+
 
 .vscode/*
 !.vscode/settings.json
