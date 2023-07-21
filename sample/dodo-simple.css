@@ -2,6 +2,19 @@
 ::backdrop {
     --sans-font: 'LINE Seed JP_OTF', -apple-system, BlinkMacSystemFont, 'Avenir Next', Avenir, 'Nimbus Sans L', Roboto, 'Noto Sans', 'Segoe UI', Arial, Helvetica, 'Helvetica Neue', sans-serif;
     --mono-font: 'PlemolJP35 HS', Consolas, Menlo, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+
+    --monokai-background: #282a36;
+    --monokai-color: #f8f8f2;
+    --monokai-gray: #969bab;
+    --monokai-pink: #ff79c6;
+    --monokai-orange: #f1fa8c;
+    --monokai-yellow: #fe8019;
+    --monokai-green: #50fa7b;
+    --monokai-blue: #bd93f9;
+    --monokai-purple: #ff79c6;
+
+    --background-darken: rgba(0, 0, 0, 0.13);
+    --background-darken-strong: rgba(0, 0, 0, 0.5);
 }
 
 @font-face {
