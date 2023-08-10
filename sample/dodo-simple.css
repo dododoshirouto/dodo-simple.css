@@ -3,18 +3,96 @@
     --sans-font: 'LINE Seed JP_OTF', -apple-system, BlinkMacSystemFont, 'Avenir Next', Avenir, 'Nimbus Sans L', Roboto, 'Noto Sans', 'Segoe UI', Arial, Helvetica, 'Helvetica Neue', sans-serif;
     --mono-font: 'PlemolJP35 HS', Consolas, Menlo, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 
-    --monokai-background: #282a36;
-    --monokai-color: #f8f8f2;
-    --monokai-gray: #969bab;
-    --monokai-pink: #ff79c6;
-    --monokai-orange: #f1fa8c;
-    --monokai-yellow: #fe8019;
-    --monokai-green: #50fa7b;
-    --monokai-blue: #bd93f9;
-    --monokai-purple: #ff79c6;
+    --github-background: #ffffff;
+    --github-color: #202328;
+    --github-gray: #707780;
+    --github-pink: #be3536;
+    --github-orange: #8a3e16;
+    --github-yellow: #152f65;
+    --github-green: #2e6130;
+    --github-blue: #214fa8;
+    --github-purple: #7b52d7;
 
-    --background-darken: rgba(0, 0, 0, 0.13);
-    --background-darken-strong: rgba(0, 0, 0, 0.5);
+    --monokai-background: #202124;
+    --monokai-color: #f8f8f3;
+    --monokai-gray: #878471;
+    --monokai-pink: #e53f73;
+    --monokai-orange: #ef9c40;
+    --monokai-yellow: #e4db82;
+    --monokai-green: #b3e053;
+    --monokai-blue: #7ed4ec;
+    --monokai-purple: #a783f7;
+
+    --background-darken: rgba(0, 0, 0, 0.02);
+    --background-darken-strong: rgba(0, 0, 0, 0.17);
+    --background-lighten: #c4defc;
+    --background-lighten-strong: #91c4ff;
+}
+
+:root,
+::backdrop {
+    --bg: var(--github-background);
+    --accent-bg: var(--background-darken);
+    --text: var(--github-color);
+    --text-light: var(--github-gray);
+    --accent: var(--github-blue);
+    --code: var(--github-pink);
+    --preformatted: var(--background-lighten-strong);
+    --disabled: var(--background-darken-strong);
+
+    --submit-button: var(--github-green);
+    --reset-button: var(--github-orange);
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+    :root,
+    ::backdrop {
+        --background-darken: rgba(0, 0, 0, 0.13);
+        --background-darken-strong: rgba(0, 0, 0, 0.5);
+        --background-lighten: rgba(255, 255, 255, 0.13);
+        --background-lighten-strong: rgba(255, 255, 255, 0.5);
+
+        --bg: var(--monokai-background);
+        --accent-bg: var(--background-darken);
+        --text: var(--monokai-color);
+        --text-light: var(--monokai-gray);
+        --accent: var(--monokai-blue);
+        --code: var(--monokai-pink);
+        --preformatted: var(--background-lighten-strong);
+        --disabled: var(--background-darken-strong);
+
+        --submit-button: var(--monokai-green);
+        --reset-button: var(--monokai-orange);
+    }
+}
+
+::selection {
+    background-color: var(--background-lighten);
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--background-lighten-strong);
+}
+
+html {
+    scrollbar-color: transparent var(--background-lighten-strong);
+}
+
+body {
+    grid-template-columns: 1fr min(60rem, 90%, calc(100vw - 1rem)) 1fr;
+}
+
+button[type='submit']:not([disabled]),
+input[type='submit']:not([disabled]) {
+    background-color: var(--submit-button);
+}
+button[type='reset']:not([disabled]),
+input[type='reset']:not([disabled]) {
+    background-color: var(--reset-button);
 }
 
 @font-face {
