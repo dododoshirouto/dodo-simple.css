@@ -48,8 +48,8 @@
 @media (prefers-color-scheme: dark) {
     :root,
     ::backdrop {
-        --background-darken: rgba(0, 0, 0, 0.13);
-        --background-darken-strong: rgba(0, 0, 0, 0.5);
+        --background-darken: rgba(0, 0, 0, 0.091);
+        --background-darken-strong: rgba(0, 0, 0, 0.374);
         --background-lighten: rgba(255, 255, 255, 0.13);
         --background-lighten-strong: rgba(255, 255, 255, 0.5);
 
