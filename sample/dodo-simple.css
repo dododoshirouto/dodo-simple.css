@@ -27,6 +27,9 @@
     --background-darken-strong: rgba(0, 0, 0, 0.17);
     --background-lighten: #c4defc;
     --background-lighten-strong: #91c4ff;
+
+    --transition-duration-mini: 120ms;
+    --transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
 :root,
@@ -42,6 +45,10 @@
 
     --submit-button: var(--github-green);
     --reset-button: var(--github-orange);
+}
+
+* {
+    transition-timing-function: var(--transition-timing-function);
 }
 
 /* Dark theme */
@@ -86,6 +93,10 @@ body {
     grid-template-columns: 1fr min(60rem, 90%, calc(100vw - 1rem)) 1fr;
 }
 
+header {
+    height: fit-content;
+}
+
 button[type='submit']:not([disabled]),
 input[type='submit']:not([disabled]) {
     background-color: var(--submit-button);
@@ -93,6 +104,14 @@ input[type='submit']:not([disabled]) {
 button[type='reset']:not([disabled]),
 input[type='reset']:not([disabled]) {
     background-color: var(--reset-button);
+}
+
+button:enabled, .button:not([aria-disabled="true"]), input[type="submit"]:enabled, input[type="reset"]:enabled, input[type="button"]:enabled, label[type="button"] {
+    transition-property: filter;
+    transition-duration: var(--transition-duration-mini);
+}
+button:enabled:hover, .button:not([aria-disabled="true"]):hover, input[type="submit"]:enabled:hover, input[type="reset"]:enabled:hover, input[type="button"]:enabled:hover, label[type="button"]:hover {
+    filter: saturate(1.3) brightness(1.2);
 }
 
 @font-face {
