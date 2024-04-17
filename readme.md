@@ -11,8 +11,8 @@ Use with simple.css.
 ## How to use
 
 ```html
-<link rel="stylesheet" href=".css">
-<link rel="stylesheet" href="dodo-simple.css">
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css" />
+  <link rel="stylesheet" href="https://dododoshirouto.github.io/dodo-simple.css/sample/dodo-simple.css" />
 ```
 
 ## Customize
