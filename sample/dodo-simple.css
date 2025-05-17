@@ -86,7 +86,7 @@
 }
 
 html {
-    scrollbar-color: transparent var(--background-lighten-strong);
+    scrollbar-color: var(--background-lighten) transparent;
 }
 
 body {
